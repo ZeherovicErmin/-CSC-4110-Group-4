@@ -6,7 +6,8 @@
 
 # Hard Deadline for presentation, technical documentation, and user agreement finalization March 5th-March6th ideally
 
-# Ryan: coding
+# Work Distribution
+  Ryan: coding
   Grace: compliance
   Alex: Front end
   Ermin: writing
