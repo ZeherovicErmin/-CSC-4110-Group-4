@@ -2,7 +2,7 @@
 
 # Due Date April 30 2023
 
-#Use your creativity, imagination, and vision to come up with a 2-dimensional “Atari 2600”  style arcade-style video game, in-line with the overall Retrogaming’ concept. 
+Use your creativity, imagination, and vision to come up with a 2-dimensional “Atari 2600”  style arcade-style video game, in-line with the overall Retrogaming’ concept. 
 
 Your product, concepts, and likenesses will be used by Forestview to potentially port this project output to other platforms.
 
