@@ -1,10 +1,13 @@
 # -CSC-4110-Group-4
 
-# Due Date March 7 2023
+# Due Date April 30 2023
 
-# Ideally have all coding done Tuesday February 28th
+#Use your creativity, imagination, and vision to come up with a 2-dimensional “Atari 2600”  style arcade-style video game, in-line with the overall Retrogaming’ concept. 
 
-# Hard Deadline for presentation, technical documentation, and user agreement finalization March 5th-March6th ideally
+Your product, concepts, and likenesses will be used by Forestview to potentially port this project output to other platforms.
+
+The goal is to use all your Python knowledge acquired to be creative, according to guidelines.
+
 
 # Work Distribution
   Ryan: coding
