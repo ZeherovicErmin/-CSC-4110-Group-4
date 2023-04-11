@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Project 2 - 4estView</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+   <!--Style tags-->
+   <style>
+       main>.container {
+           padding: 60px 15px 0;
+       }
+       .navbar,footer {background-color: #008013; height:5em;}
+       footer{text-align: center;height: 2em;}
+   </style>
+</head>
+
+<body>
+    
+<!--Navbar for homepage and project links-->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="../GroupProject1/index-GP1.html">Project 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../GroupProject2/index-GP2.html">Project 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../GroupProject3/index-GP3.html">Project 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../GroupProject4/index-GP4.html">Project 4</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main class="flex-shrink-0">
+    
+    <!--Project details-->
+    <div class="container">
+        <h1 class="mt-5">Project 2</h1>
+        <p class="lead">Our team is working again on behalf of Forestview and their second wave of SafetyZone&copy proposals to key customers.</p>
+        <p class="pitch">For this project, we were tasked with creating an application that simulated the user interface for a business of our choice. 
+            We decided to create the UI for employees at a hotel front desk and concierge with the following criteria:</p>
+        <ul class="reqs">
+             <li>Using Python3, create a 'robust' application that simulates a business' user interface.</li>
+             <li>Use a GUI to allow user to fulfill the proposed duties of the application.</li>
+             <li>Store, collect, and searche data sets using Json files to simulate inventory.</li>
+             <li>Use Doc strings throughout for readability of the code.</li>
+             <li>Package the application to an executable that users can download from this webpage (after signing the user agreement).</li>
+        </ul>
+        <p class="specs">As before, we chose tkinter and Pylint as the required libraries.</p>
+        
+        <h3 class="mt-4">Specifics</h3>
+        <p class="specs">Our application simulates a hotel front desk, and includes the following functionalities:</p>
+        <ul class="functions">
+            <li>Guest check in and check out - with room availability visualized for ease of use.</li>
+            <li>Room service - from both in-house kitchen and front desk pantry.</li>
+            <li>Recipe Builder - easy to add new recipes to the menu</li>
+            <li>Guest lookup - search for guests by name</li>
+        </ul>
+        <p class="lead">We strive to provide quality service, and scalable, cyber-secure solutions.</p>
+
+        <!--User Agreement-->
+        <h3 class="mt-4">User Agreement</h3>
+        <p class="userAgreement">By downloading this software, the user agrees to not share, reproduce, 
+            or modify any of this product, whether in part or entirety, without signed consent from Forestview. 
+            The user is aware that the data used in this application will not be maintained or secured by Forestview. 
+            Any and all data must be collected, maintained, and guarded directly by the user or a third party the user 
+            so chooses. All data added, modified, and deleted by the user will not be tracked or logged by Forestview or 
+            any of its affiliates. Forestview will not be held liable for any unforeseen events including, but not limited 
+            to, data breeches, zero-day attacks, database worms, and SQL injections. 
+        </p>
+        <p class="userAgreement">
+        Every quarter Forestview will undergo a vulnerability assessment against its system to prevent any undesired events from occurring. 
+        The user of this system agree to undergo periodic vulnerability assessments as a requirement of using this product. As technology and 
+        security changes over time, requirements relating to the product will change. 
+        </p>
+        <p class="userAgreement">The intended usage of this software is for hotel or resort guest management. The use of 
+        this software for any other operation is at the liability of the user. Forestview will not be held responsible 
+        for any changes made by the user to the software provided, including changes that may cause the software to 
+        cease working or create security risks. This software does not contain any inherent security measures: it is at 
+        the discretion of the user to provide adequate security measures. 
+        </p>
+        <p class="userAgreement">Forestview will not be held liable for any illnesses caused by food consumption including, 
+        but not limited to, allergic reactions and food poisoning. It is the responsibility of the guest to ensure that 
+        Forestview is aware of any allergies so as to take appropriate cautionary measures when preparing food. 
+        </p>
+        
+        <!--Download Button-->
+         <form method="get" action="4est - Project 2.zip">
+             <p class="warning">By pressing “agree”, the user agrees to abide by all policies stated prior.</p>
+             <button type="submit" style="border-color:#008013;font-size:1.25em;">I Agree</button>
+             <p class="downloadMessage"> (Download will begin shortly after)</p>
+         </form>
+        <p></p>
+    </div>
+ </main>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+</body>
+
+<!--Footer-->
+<footer class="flex-shrink-0">
+    <p>All content copyright &copy; 2023, 4estView.</p>
+</footer>
+
+</html>
